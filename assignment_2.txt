@@ -1,0 +1,19 @@
+1-Gradient Descent – Updates parameters by moving in the direction of the negative gradient of the loss function.
+
+2-Stochastic Gradient Descent (SGD) – Updates weights after each training example instead of the whole dataset, making it faster.
+
+3-Mini-Batch Gradient Descent – Uses small random batches for updates, balancing speed and stability.
+
+4-Momentum – Accelerates gradient descent by adding a fraction of the previous update to the current one.
+
+5-Nesterov Accelerated Gradient (NAG) – Looks ahead to adjust the update direction, improving convergence speed.
+
+6-Adagrad – Adapts learning rate individually for each parameter based on past gradients.
+
+7-RMSProp – Maintains a moving average of squared gradients to normalize learning rates dynamically.
+
+8-Adam (Adaptive Moment Estimation) – Combines Momentum and RMSProp for efficient and adaptive optimization.
+
+9-Adadelta – Improves Adagrad by limiting the accumulation of past gradients for more stable learning rates.
+
+10Nadam (Nesterov-accelerated Adam) – Integrates Nesterov momentum into Adam for faster convergence and better generalization.
